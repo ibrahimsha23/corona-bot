@@ -1,2 +1,2 @@
-release: flask crontab add && flask crontab show
+release: flask crontab add
 web gunicorn app:app
